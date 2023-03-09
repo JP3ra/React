@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Todo = () => {
+export const TodoItem = ({todos}) =>{
   return (
     <div>
-      Todos works!
+      <h4>{todos.title}</h4>
+      <p>{todos.desc}</p> 
     </div>
   )
 }
 
-export default Todo
